@@ -14,7 +14,7 @@ app.use(express.json());
 
 // *******************************************------------------------*************************************
 //Connexion à la base de données MongoDB Atlas
-mongoose.connect('mongodb+srv://e-gUser_31:62R9BV79bwkHD7yc@cluster0.thnn26q.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('',
 {useNewUrlParser: true,
 useUnifiedTopology: true})
     .then(() => console.log('Connexion à MongoDB réussit.'))
