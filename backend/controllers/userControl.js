@@ -69,7 +69,7 @@ exports.login = (req, res, next) => {
                             //Création d'un token d'authentification
                             token: jwt.sign(
                                 {userId: user._id},
-                                "sbfsbfoumbzYT’TPGBÇV(!TAUOVJIG`’àtuh)çbrhçtu!RQEIKGÉ(GU§,J’T,H!ZÇN)TUÉ’ÉÀVÀ7Y4B1+9§4U+Z’814RV&r93té68’y88(g719+7ççk+7à(4àç+9v(1&+v4c4xr’édt’7+1+’(7g+vy+§+*1’1+x7+1rc++5v22h97(ev2",
+                                "",
                                 {expiresIn: '1h'}
                             )
                         })
